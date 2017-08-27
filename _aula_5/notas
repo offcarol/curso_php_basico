@@ -1,0 +1,35 @@
+Operadores Aritméticos:
+
+	Adição:	$r = $a + $b
+	Subtração: $r = $a - $b
+	Multiplicação: $r = $a * $b
+	Divisão: $r = $a / $b
+	Módulo: $r = $a % $b
+	
+Ordem de Precedência
+
+	Parênteses      ()
+	
+	Multiplicação
+	Divisão          * / %
+	Módulo
+	
+	Adição
+	Subtração        + -
+	
+Passando valores personalizados diretamente pela url:
+
+	exemplo: https://curso-php-basico-offcarol.c9users.io/_aula_5/operadores2.php?a=6&b=4
+			 $n1 = $_GET["a"];
+			 $n2 = $_GET["b"];
+			 
+Funções Matemáticas
+
+	abs()				Valor Absoluto
+	pow()				Potenciação
+	sqrt()				Raiz Quadrada
+	round()				Arredondamento
+	ceil()				Arredondamento para cima
+	floor()				Arredondamento para baixo
+	intval()			Valor inteiro da variável
+	number_format()		Formatação
