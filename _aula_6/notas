@@ -1,0 +1,64 @@
+▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
+	
+	OPERADORES DE ATRIBUIÇÃO
+	
+	Algoritmo				PHP			Simplificação
+	
+	a <- 1				$a = 1;
+	b <- 3				$b = 3;
+	c <- a + b			$c = $a + $b;
+	c <- c + 5			$c = $c + 5;	 $c += 5;
+	b <- b + a			$b = $b + $a;	 $b += $a;
+	a <- a + 1			$a = $a + 1;	 $a += 1; ou $a++;
+	
+----------------------------------------------------------------------------------------
+	
+	Operadores Aritméticos					Simplificação
+	
+		Adição:			$a = $a + $b		$a += $b
+		Subtração:		$a = $a - $b		$a -= $b
+		Multiplicação:  $a = $a * $b		$a *= $b
+		Divisão:		$a = $a / $b		$a /= $b
+		Módulo: 		$r=a = $a % $b		$a %= $b	
+		Concatenação:	$a = $a . $b		$a .= $b
+		
+----------------------------------------------------------------------------------------
+	
+	Operadores de Incrementação
+	
+		Pré-incremento		$a = $a + 1		++$a
+		Pós-incremento		$a = $a + 1		$a++
+		Pré-decremento		$a = $a - 1		--$a
+		Pós-decremento		$a = $a - 1		$a--
+		
+----------------------------------------------------------------------------------------
+	
+	Comentários
+	
+		inline:		//comentario ou #comentario
+		multiline:	/*comentario
+					comentario*/
+					
+----------------------------------------------------------------------------------------
+
+	Variáveis Referenciadas
+	
+		$a = 3;			$a = 3;
+		$b = $a;		$b = &$a; //b vira uma referência a a, ligando as variáveis	
+		$b += 5;		$b += 5;
+		echo $a;		echo $a;
+		echo $b;		echo $b;
+		
+		$a -> 3			$a -> 8
+		$b -> 8			$a -> 8
+
+----------------------------------------------------------------------------------------
+
+	Variáveis de Variáveis				Armazenamento
+		
+		$site = "cursoemvideo";			$site -> cursoemvideo
+		$$site = "cursophp";			$cursoemvideo -> cursophp
+		
+	$ antes de variavel cria uma variavel com o nome do conteudo da anterior
+		
+▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
