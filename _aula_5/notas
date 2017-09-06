@@ -1,10 +1,10 @@
 Operadores Aritméticos:
 
-	Adição:	$r = $a + $b
-	Subtração: $r = $a - $b
-	Multiplicação: $r = $a * $b
-	Divisão: $r = $a / $b
-	Módulo: $r = $a % $b
+	Adição:			$r = $a + $b
+	Subtração:		$r = $a - $b
+	Multiplicação:  $r = $a * $b
+	Divisão:		$r = $a / $b
+	Módulo: 		$r = $a % $b
 	
 Ordem de Precedência
 
