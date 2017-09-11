@@ -1,0 +1,69 @@
+▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
+
+		OPERADORES RELACIONAIS
+		
+			Maior				$a > $b
+			Menor				$a < $b
+			Maior ou igual		$a >= $b
+			Menor ou igual		$a <= $b
+			Diferente			$a <> $b	$a != $b
+			Igual				$a == $b
+			Idêntico			$a === $b //testa se é do mesmo tipo e iguais
+   -----------------------------------------------------------------------------------		
+		Operador Ternário
+			
+			?	:
+			expressão ? verdadeiro : falso
+			
+			- faz comparações simples e mostra resultados de acordo com o resultado
+			da expressão do operador ternário
+			
+			ex1:		$a > $b ? $a : $b
+					$maior = $a > $b ? $a : $b
+					
+					equivalente em algoritmo:
+					
+						Se (A > B) entao
+							maior <- A
+						Senao
+							maior <- B
+						FimSe
+						
+			ex2:		$r = $a > $b ? $a + $b : $a - $b	
+			
+			ex3:		$sit = $m < 7 ? "recuperação" : "aprovado"
+			
+   ------------------------------------------------------------------------------------
+   
+		Operadores Lógicos
+		
+		 p | q | p E q    -> E representado por and ou &&	
+		---------------
+		 V | V |   V
+		 V | F |   F
+		 F | V |   F
+		 F | F |   F
+		 
+		  p | q | p OU q    -> OU representado por or ou ||	
+		-----------------
+		 V | V |    V
+		 V | F |    V
+		 F | V |    V
+		 F | F |    F
+			
+		  p | q | p XOU q    -> XOU exclusivo representado por xor	
+		------------------
+		 V | V |     F
+		 V | F |     V
+		 F | V |     V
+		 F | F |     F
+		 
+		   p | NÃO p    -> NÃO representado por !	
+		-------------
+		   V |   F 
+		   F |   V 
+
+		
+				
+		
+▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
